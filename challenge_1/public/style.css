@@ -1,0 +1,62 @@
+body {
+  background-color: #114B5F;
+  color: #E4FDE1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#search-form {
+  text-align: center;
+}
+
+#search-form input {
+  height: 40px;
+  width: 242px;
+}
+
+#search-form button {
+  height: 40px;
+  background-color: #028090;
+  border: none;
+  color: whitesmoke;
+  transition: .2s all ease-in-out;
+}
+
+#search-form button:hover {
+  cursor: pointer;
+  background-color: #00a5bb;
+}
+
+.whole_entry {
+  background-color: #028090;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.entry_date {
+
+}
+
+.entry_description {
+
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.pagination {
+  padding-left: 380px !important;
+  margin-bottom: 100px !important;
+  list-style: none !important;
+  margin-bottom: 50px;
+}
+
+li {
+  float: left;
+  padding-left:10px ;
+}
